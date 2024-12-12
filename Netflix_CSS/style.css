@@ -1,0 +1,269 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  header {
+    background-image: url(assests/images/bg.jpg);
+    background-position: center center;
+    height: 650px;
+    width: 100%;
+    position: relative;
+  }
+  nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+  }
+  .logo1 {
+    width: 150px;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  ul select{
+    background-color: rgba(0, 0, 0, 0.42);
+    color: white;
+    padding: 3px 8px;
+    margin: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.758);
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+  .btn {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .nb {
+    padding: 0px 15px !important ;
+    font-size: 13px;
+    margin: 10px 10px;
+    height: 30px;
+  }
+  .text {
+    position: relative;
+    z-index: 10;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .span1 {
+    font-weight: 1000;
+    font-size: 48px;
+    padding-right: 100px;
+  }
+  .span2 {
+    font-size: 30px;
+  }
+  .span3 {
+    font-size: 20px;
+  }
+  .input_email {
+    background-color: rgba(13, 8, 8, 0.6);
+    font-size: 15px;
+    padding: 15px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+  }
+  ::placeholder {
+    color: gray;
+    opacity: 1;
+    font-weight: 700;
+  }
+  
+  .gs {
+    font-size: 15px;
+    padding: 15px;
+    margin: 5px;
+  }
+  .box {
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+  }
+  
+  .line {
+    height: 4px;
+    background-color: #585555;
+  }
+  
+  .sec {
+    background-color: black;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+  .paras {
+    margin: 0px 0px 0px 150px;
+  }
+  .p1 {
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 800;
+  }
+  .p2 {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    padding-right: 100px;
+  }
+  .visuals {
+    position: relative;
+  }
+  .tv {
+    width: 540px;
+    margin: 120px;
+    position: relative;
+    z-index: 10;
+  }
+  .tvvideo {
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    right: 187px;
+  }
+  .img {
+    width: 35vw;
+    margin-left: 177px;
+    margin-right: 0;
+    width: 500px;
+  }
+  .tvvideo2 {
+    position: absolute;
+    top: 148px;
+    right: 229px;
+    width: 326px;
+  }
+  .faq {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 34px;
+  }
+  .faq h2 {
+    font-size: 50px;
+    padding: 20px;
+  }
+  .faq p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+  }
+  .faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 45, 45);
+    padding: 15px;
+    max-width: 70vw;
+    margin: 9px auto;
+  }
+  .faqbox:hover {
+    background-color: #414141;
+    color: white;
+  }
+  .faqbox span {
+    padding: 9px;
+    font-size: 25px;
+  }
+  .foot {
+    background-color: black;
+    color: gray;
+    padding: 40px 150px;
+  }
+  .foot > div > div {
+    padding: 10px;
+  }
+  .foot > p {
+    color: white;
+    padding: 20px 10px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .grid > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  @media screen and (max-width: 1200px) {
+    header {
+      width: 1200px;
+      height: 1400px;
+      flex-wrap: wrap; 
+      background-size: cover;
+    }
+    .box{
+      height: 1400px;
+    }
+    .sec {
+      background-color: black;
+      width: 1200px;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+      height: 800px;
+    }
+    .line{
+      width: 1200px;
+    }
+    .paras {
+      margin-left: 0px;
+    }
+    .p1 , .p2 {
+      text-align: center;
+    }
+    .tv {
+      margin: 0px;
+    }
+    .tvvideo {
+      margin-top: -117px;
+      margin-right: -115px;
+    }
+    .img {
+      margin-left: 0px;
+    }
+    .tvvideo2 {
+      margin-top: -117px;
+      margin-right: -115px;
+    }
+    .faq {
+      width: 1200px;
+      padding: 0px;
+      height: 1400px;
+    }
+    .grid {
+      grid-template-columns: 1fr 1fr;
+      margin-left: 20px;
+    }
+    .grid > div, p {
+      margin-left: 20px;
+      padding: 10px 10px 10px;
+    }
+    .foot {
+      width: 1200px;
+      padding: 0px;
+      height: 1400px;
+    }
+  }
+  
