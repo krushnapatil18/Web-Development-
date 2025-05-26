@@ -17,7 +17,6 @@ A simple web app that fetches and displays random cat facts using the [Catfact A
 
 Check it out here: [https://randomcatfactgenrator.vercel.app/](https://randomcatfactgenrator.vercel.app/)
 
-## 📂 Project Structure
-```
+
 
 
